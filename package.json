@@ -1,0 +1,13 @@
+{
+  "name": "initialProject",
+  "packageManager": "yarn@4.2.2",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "index" : "yarn node index.js",
+    "server" : "nodemon ./others/http.js",
+    "readstm" : "nodemon ./others/readStream.js",
+    "writestm": "nodemon ./others/writeStream.js"
+  }
+}
